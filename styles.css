@@ -1,0 +1,161 @@
+body {
+  text-align: center;
+  background-image: url("img/Neon.png");
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+}
+
+#level-title {
+  font-style: italic;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  4%;
+  -webkit-text-stroke: 1px black;
+  color: #FEF2BF;
+}
+
+.footertext{
+  font-style: italic;
+  margin-top: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px black;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background: rgb(200,9,9);
+  background: linear-gradient(45deg, rgba(200,9,9,1) 20%, rgba(255,63,63,1) 120%);
+}
+
+.green {
+  background: rgb(25,166,53);
+  background: linear-gradient(45deg, rgba(25,166,53,1) 20%, rgba(158,250,167,1) 120%);
+}
+
+.blue {
+  background: rgb(9,9,121,1);
+  background: linear-gradient(45deg,  rgba(9,9,121,1) 20%, rgba(0,212,255,1) 120%);
+}
+
+.yellow {
+  background: rgb(255,42,0);
+  background: linear-gradient(45deg, rgba(255,42,0,1) 20%, rgba(255,188,63,1) 100%);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.pressedred {
+  box-shadow: 0 0 50px rgba(255,63,63,1);
+  transition-delay: 0.05s;
+  opacity: 65%;
+}
+
+.pressedblue {
+  box-shadow: 0 0 50px rgba(0,212,255,1);
+  transition-delay: 0.05s;
+  opacity: 65%;
+}
+
+.pressedyellow {
+  box-shadow: 0 0 50px rgba(255,188,63,1);
+  transition-delay: 0.05s;
+  opacity: 65%;
+}
+
+.pressedgreen{
+  box-shadow: 0 0 50px rgba(25,166,53,1);
+  transition-delay: 0.05s;
+  opacity: 65%;
+}
+
+.button.red:hover{
+  box-shadow: 0 0 50px rgba(255,63,63,1);
+  transition-delay: 0.05s;
+}
+
+.button.blue:hover{
+  box-shadow: 0 0 50px rgba(0,212,255,1);
+  transition-delay: 0.05s;
+}
+
+.button.yellow:hover{
+  box-shadow: 0 0 50px rgba(255,188,63,1);
+  transition-delay: 0.05s;
+}
+
+.button.green:hover{
+  box-shadow: 0 0 50px rgba(25,166,53,1);;
+  transition-delay: 0.05s;
+}
+
+.PlayDiv{
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.Playbtn{
+  border-color: black;
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+.Playbtn i{
+  color: white;
+}
+
+.Playbtn:hover{
+  box-shadow: 0 0 50px rgba(0,212,255,1);
+  transition-delay: 0.05s;
+}
+
+.Playbtn:active{
+  box-shadow: 0 0 50px rgba(0,212,255,1);
+  transition-delay: 0.05s;
+  opacity: 65%;
+}
+
+
+
+
+
+
+
+@media (max-width: 1125px){
+
+  body{
+    background-image: url("img/Neon2.png");
+  }
+
+}
